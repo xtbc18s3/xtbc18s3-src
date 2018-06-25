@@ -50,6 +50,10 @@ Give your SSH Key a title (something to identify the machine on which the key wa
 
 ## Test your SSH key with your GitHub account
 
+{{% aside danger "Won't work at Marian" %}}
+SSH is blocked and will _not_ work on the WiFi network at Marian University, so don't panic if it's not working.
+{{% /aside %}}
+
 Return to Terminal and type the following command:
 
 {{< term output="2,3,4" os="windows" >}}
