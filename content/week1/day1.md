@@ -9,11 +9,11 @@ weight: 1
 
 Morning:
 
-* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V) | [Day 1, part 1](https://www.youtube.com/watch?v=a5lHNjlxw24&index=2&list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V)
+* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V) | [Day 1, part 1](https://www.youtube.com/watch?v=a5lHNjlxw24&list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V&index=1)
 
 Afternoon:
 
-* [Playlist]() | [Day 1, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 1, part 1](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=1)
 
 ## Topics
 
@@ -93,10 +93,10 @@ This adds the github remote as 'origin' and sets it as the default for when you 
 ## Projects
 
 ### First JS
-[Morning](https://codepen.io/dstrus/professor/RJBJbE/) | [Afternoon]()
+[Morning](https://codepen.io/dstrus/professor/RJBJbE/) | [Afternoon](https://codepen.io/dstrus/professor/NzBJLM/?editors=1010)
 
 ### Chrismess
-[Morning](https://github.com/xtbc18s3/chrismess) | [Afternoon]()
+[Morning](https://github.com/xtbc18s3/chrismess) | [Afternoon](https://github.com/xtbc18s3/chrismess/tree/afternoon)
 
 ## Homework
 
