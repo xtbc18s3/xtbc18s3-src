@@ -9,11 +9,11 @@ weight: 2
 
 Morning:
 
-* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V) | [Day 2, part 1](https://www.youtube.com/watch?v=1-CvNYMy_hY&index=9&list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V&t=0s)
+* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V) | [Day 2, part 1](https://www.youtube.com/watch?v=1-CvNYMy_hY&list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V&index=8)
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 2, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 2, part 1](https://www.youtube.com/watch?v=2KKserHCU_c&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=8)
 
 ## Topics
 
@@ -44,6 +44,7 @@ Afternoon:
 
 * [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 * [Google Fonts](https://fonts.google.com/)
+* Chrome DeveloperTools (aka DevTools)
 
 ## Examples
 
@@ -70,9 +71,13 @@ body {
 }
 {{< /code >}}
 
+#### $0 and more on Chrome DevTools
+
+[Tools for Web Developers](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#0-4)
+
 ## Presentations
 
-* <a target="_blank" href="/day02.pdf">Review: JavaScript Elements and Attributes</a>
+<a target="_blank" href="/day02.pdf">Review: JavaScript Elements and Attributes</a>
 
 ## Projects
 
