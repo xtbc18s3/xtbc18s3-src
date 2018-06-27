@@ -114,7 +114,7 @@ myObjKeys.map(key => myObj[key])        // ['hi', 42, [1, 2, 3]]
 {{< /code >}}
 
 ### ES2015+ (ES6+)
-* Inheritance (with the ES2015 `class` syntax; it's still _prototypal_ inheritance though) - [ES26 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* Inheritance (with the ES2015 `class` syntax; it's still _prototypal_ inheritance though) - [ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ### `this`
 
@@ -161,6 +161,7 @@ app.sayYeah.bind('w00t')() // "Yeah, w00t"
 ## Homework
 
 * In addition to building a list item and adding it to the DOM (as we are now), also store each flick in an array.
+
 ### Bonus Credit
 * Add a _delete_ button to each list item that removes it from the list.
 
