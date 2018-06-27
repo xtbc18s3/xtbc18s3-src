@@ -13,7 +13,7 @@ Morning:
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 3, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 3, part 1](https://www.youtube.com/watch?v=xMJKM8_pyGM&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=26)
 
 ## Topics
 * Creating and appending DOM Elements
@@ -153,7 +153,7 @@ app.sayYeah.bind('w00t')() // "Yeah, w00t"
 
 ### CodePen
 
-[Morning](https://codepen.io/dstrus/professor/mKzKEj/) | [Afternoon]()
+[Morning](https://codepen.io/dstrus/professor/mKzKEj/) | [Afternoon](https://codepen.io/dstrus/professor/bKmzeZ/)
 
 ### Chrismess
 [Morning](https://github.com/xtbc18s3/chrismess) | [Afternoon](https://github.com/xtbc18s3/chrismess/tree/afternoon)
