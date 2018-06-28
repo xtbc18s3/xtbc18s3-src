@@ -13,7 +13,7 @@ Morning:
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 4, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 4, part 1](https://www.youtube.com/watch?v=xzZf4sgpDgY&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=37)
 
 ## Topics
 * [`this`](https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c)
