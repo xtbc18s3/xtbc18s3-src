@@ -13,7 +13,7 @@ Morning:
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 5, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 5, part 1](https://www.youtube.com/watch?v=vM5LX8tfSOM&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=49)
 
 ## Topics
 
@@ -26,6 +26,12 @@ Afternoon:
   * JSX - [Docs: Introducing JSX](https://facebook.github.io/react/docs/introducing-jsx.html)
   * Props - [Docs: Components and Props](https://facebook.github.io/react/docs/components-and-props.html)
   * State - [Docs: State and Lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html)
+* `create-react-app`
+* Stateless Functional Components
+  * [Stateless Functional Components in React](http://javascriptplayground.com/blog/2017/03/functional-stateless-components-react/)
+  * [Functional Components vs. Stateless Functional Components vs. Stateless Components](https://tylermcginnis.com/functional-components-vs-stateless-functional-components-vs-stateless-components/)
+  * [Nine Wins You Might Have Overlooked](https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc)
+* Property initializers (and arrow functions)
 
 ## Examples
 
@@ -168,6 +174,79 @@ class App extends React.Component {
 export default App
 {{< /code >}}
 
+#### `create-react-app`
+
+* [Documentation/README](https://github.com/facebook/create-react-app)
+
+#### Stateless Functional Components
+
+Not every React Component needs to have state.  Many simply render a bit of `props` and UI.  For such components, we don't need to instantiate a whole class that inherits from `React.Component`, we can simply write a function that accepts `props` as an argument and returns the markup we need.
+
+For instance, in the previous example, the `Person` component can easily be re-written as a Stateless Functional Component.
+
+{{< code jsx >}}
+function Person (props) {
+  return (
+    &lt;li&gt;Hello, {props.person.name}!&lt;/li&gt;
+  )
+}
+
+// Or...
+
+const Person = (props) => &lt;li&gt;Hello, {props.person.name}!&lt;/li&gt;
+{{< /code >}}
+
+#### Property initializers
+
+{{% aside info "Subject to minor changes" %}}
+[Property initializers](https://github.com/tc39/proposal-class-public-fields) are a [Stage 3 proposal](https://tc39.github.io/process-document/) for ECMAScript, meaning that they're a candidate, but requires further refinement and feedback from implementations and users before it becomes part of the standard. Facebook itself is already using these techniques in production, however.
+{{% /aside %}}
+
+From the proposal:
+
+> "Class instance fields" describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).
+
+We can take advantage of this in React.
+
+[**Read more: Using ES7 property initializers in React**](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
+
+We can use a property initializer to set the initial value of state without writing a constructor:
+
+{{< code jsx >}}
+class Song extends React.Component {
+  state = {
+    versesRemaining: 5,
+  }
+}
+{{< /code >}}
+
+We can even set default props and use those in the initial state:
+
+{{< code jsx >}}
+class Song extends React.Component {
+  static defaultProps = {
+    autoPlay: false,
+    verseCount: 10,
+  }
+  state = {
+    versesRemaining: this.props.verseCount,
+  }
+}
+{{< /code >}}
+
+#### Property initializers + arrow functions
+
+Combining property initializers and arrow functions gives us a convenient way to auto-bind `this`, since arrow functions inherit `this` from the scope in which they are declared (lexical scoping):
+
+{{< code jsx >}}
+class Something extends React.Component {
+  handleButtonClick = (ev) => {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+{{< /code >}}
+
 ## Presentations
 
 * <a target="_blank" href="/intro-to-react.pdf">Intro to React</a>
@@ -175,11 +254,11 @@ export default App
 ## Projects
 
 #### Reactrobats 
-* [Morning](https://codepen.io/dstrus/professor/ERMVGw/) | [Afternoon]()
+* [Morning](https://codepen.io/dstrus/professor/ERMVGw/) | [Afternoon](https://codepen.io/dstrus/professor/aKMJLj/)
 
 #### Dwarf Underground
-* [Fork and clone this directory](https://github.com/xtbc18s3/dwarf-underground)
-* [Morning](https://github.com/xtbc18s3/dwarf-morning) | [Afternoon]()
+* [Fork and clone this repository](https://github.com/xtbc18s3/dwarf-underground)
+* [Morning](https://github.com/xtbc18s3/dwarf-morning) | [Afternoon](https://github.com/xtbc18s3/dwarf-afternoon)
 
 ## Homework
 
