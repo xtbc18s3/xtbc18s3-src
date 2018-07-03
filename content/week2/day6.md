@@ -13,7 +13,7 @@ Morning:
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 6, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 6, part 1](https://www.youtube.com/watch?v=PyrMOVVm0OA&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=63)
 
 ## Topics
 * [React Documentation](https://reactjs.org/docs/getting-started.html)
@@ -76,7 +76,7 @@ export default PersonList
 ## Projects
 
 #### Chatarang 
-* [Morning](https://github.com/xtbc18s3/chatarang) | [Afternoon]()
+* [Morning](https://github.com/xtbc18s3/chatarang) | [Afternoon](https://github.com/xtbc18s3/chatarang-afternoon)
 
 ## Homework
 
