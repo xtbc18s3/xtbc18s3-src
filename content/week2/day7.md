@@ -21,7 +21,6 @@ Afternoon:
 
 * Methods as props
 * [Conditional Rendering] (https://reactjs.org/docs/conditional-rendering.html#___gatsby)
-* The Component Lifecycle
 * [If-Else in JSX](https://react-cn.github.io/react/tips/if-else-in-JSX.html)
 
 ### JavaScript
@@ -72,11 +71,6 @@ class App extends React.Component {
 
 ReactDOM.render(&lt;App /&gt;, document.querySelector('main'))
 {{< /code >}}
-
-#### The Component Lifecycle
-
-* [React.Component](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
-* [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 
 ### JavaScript (ES6+)
 
