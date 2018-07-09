@@ -259,3 +259,16 @@ If you receive this message...
 * [Morning](https://github.com/xtbc18s3/chatarang) | [Afternoon](https://github.com/xtbc18s3/chatarang-afternoon)
 
 ## Homework
+* Set the current room when you click a room in the sidebar.
+
+### Bonus Credit
+
+* Sync the list of rooms with Firebase (using `base.syncState()`).
+
+### Super Mega Bonus Credit
+
+* Sync each room's messages separately.
+
+### Super Mega Bonus Credit Hyper Fighting
+
+* Add a form to create new rooms.
