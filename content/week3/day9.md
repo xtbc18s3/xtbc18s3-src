@@ -13,7 +13,7 @@ Morning:
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 9, part 1]()
+* [Playlist](https://www.youtube.com/watch?v=czNa5ix1vFs&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG) | [Day 9, part 1](https://www.youtube.com/watch?v=u-Zw_WhT2qg&list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&index=113)
 
 ## Topics
 
@@ -142,7 +142,7 @@ If no second argument is provided to `fetch()`, it defaults to a standard `GET` 
 * [Morning](https://github.com/xtbc18s3/chatarang) | [Afternoon](https://github.com/xtbc18s3/chatarang-afternoon)
 
 #### API Party 
-* [Morning](https://github.com/xtbc18s3/api-party) | [Afternoon]()
+* [Morning](https://github.com/xtbc18s3/api-party) | [Afternoon](https://github.com/xtbc18s3/api-party/tree/afternoon)
 
 ## Homework
 
